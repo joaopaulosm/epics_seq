@@ -1,10 +1,10 @@
 # CONFIG_SITE - site-specific build configuration settings
 
 # To restrict the architectures to cross-compile for, set this:
-#CROSS_COMPILER_TARGET_ARCHS = vxWorks-68040
+CROSS_COMPILER_TARGET_ARCHS = linux-ppc64e6500
 
 # To install somewhere other than $(TOP) set this:
-#INSTALL_LOCATION = <install path>
+INSTALL_LOCATION =$(LITEEE_INSTALL)/$(LITEEE_BASE)/modules/seq/2.2.4
 
 # Use this when your IOC and the host use different paths
 # to access the application. Typically this will be 
