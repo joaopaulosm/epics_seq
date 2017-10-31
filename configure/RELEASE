@@ -3,5 +3,5 @@
 # You should do a "gnumake clean uninstall install" in the application
 # top directory each time changes are made to this file
 
-EPICS_BASE=$(LITEEE_INSTALL)/$(LITEEE_BASE)/base
+EPICS_BASE=/opt/liteee/3.16.1/base
 -include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)
